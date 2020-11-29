@@ -8,7 +8,7 @@ class Site extends React.Component {
   render() {
     return (
       <>
-        <Navbar links={this.state.config.nav} key='navbar'/>
+        <Navbar links={this.state.config.nav} brand={this.state.config.title} key='navbar'/>
         <SLdiagram page={this.state.page}/>
       </>
     )

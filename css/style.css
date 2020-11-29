@@ -1,1 +1,8 @@
 /* Styles */ 
+
+.cursor-grip:hover {
+  cursor: grab;
+}
+.dropdown-menu {
+  min-width:0;
+}

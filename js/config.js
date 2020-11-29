@@ -1,7 +1,7 @@
 var config = {
-  project:      "FiberDoc",
+  project:      "FiberDok",
   language:     "no",
-  title:        "FiberDoc",
+  title:        "FiberDok",
   stylesheet:   "/css/style.css",
   //bannerlogo:   "/img/logo.png",
   cssframework: "bootstrap3",

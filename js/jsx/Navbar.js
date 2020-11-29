@@ -24,7 +24,8 @@ function Navbar(props) {
   )
 
   return (
-    <nav className="navbar navbar-expand-md navbar-light bg-bjork rounded mt-3 pb-0 pt-0 border border-bjork">
+    <nav className="navbar navbar-expand-md navbar-light border m-3">
+      <span className="navbar-brand">{props.brand}</span>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
